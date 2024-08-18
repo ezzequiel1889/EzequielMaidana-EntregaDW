@@ -1,0 +1,29 @@
+@media screen and (max-width:320px){
+    body{
+        width: 100%;
+    }
+    main{
+        margin: 50px 0px;
+    }
+    footer{
+        width: 100%;
+        .copy{
+            padding: 5px;
+            text-align: center;
+            .p-footer{
+                font-size: 6px;
+            }
+        }
+
+        .redes{
+            padding-right: 16px;
+            ul{
+                gap: 25px;
+                li{
+                    font-size: 20px;
+
+                }
+            }
+        }
+    }
+}

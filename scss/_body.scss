@@ -1,0 +1,13 @@
+body{
+    height: 122vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+
+    .main_class{
+        background-color: rgb(160, 156, 156);
+        border-radius: 10px;
+
+    }
+}
