@@ -1,4 +1,5 @@
-@media screen and (max-width:428px){
+@import "../variablesMixins/mixin";
+@media screen and (max-width:768px){
     body{
         width: 100%;
     }
@@ -10,8 +11,8 @@
         .copy{
             padding: 5px;
             text-align: center;
-            #p-footer{
-                font-size: 25px;
+            p{
+                @include backgroundSecundario;
             }
         }
 

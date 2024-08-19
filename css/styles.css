@@ -109,7 +109,7 @@ footer .redes ul li a i:hover {
     font-size: 20px;
   }
 }
-@media screen and (max-width: 428px) {
+@media screen and (max-width: 425px) {
   body {
     width: 100%;
   }
@@ -123,8 +123,43 @@ footer .redes ul li a i:hover {
     padding: 5px;
     text-align: center;
   }
-  footer .copy #p-footer {
-    font-size: 25px;
+  footer .copy p {
+    background-color: black;
+    font-size: 15px;
+    border-radius: 10px;
+    color: white;
+    padding: 10px;
+  }
+  footer .redes {
+    padding-right: 16px;
+  }
+  footer .redes ul {
+    gap: 25px;
+  }
+  footer .redes ul li {
+    font-size: 20px;
+  }
+}
+@media screen and (max-width: 768px) {
+  body {
+    width: 100%;
+  }
+  main {
+    margin: 50px 0px;
+  }
+  footer {
+    width: 100%;
+  }
+  footer .copy {
+    padding: 5px;
+    text-align: center;
+  }
+  footer .copy p {
+    background-color: black;
+    font-size: 15px;
+    border-radius: 10px;
+    color: white;
+    padding: 10px;
   }
   footer .redes {
     padding-right: 16px;
@@ -136,7 +171,7 @@ footer .redes ul li a i:hover {
     font-size: 25px;
   }
 }
-@media screen and (max-width: 428px) {
+@media screen and (max-width: 1024px) {
   body {
     width: 100%;
   }
@@ -150,8 +185,12 @@ footer .redes ul li a i:hover {
     padding: 5px;
     text-align: center;
   }
-  footer .copy #p-footer {
-    font-size: 25px;
+  footer .copy p {
+    background-color: black;
+    font-size: 15px;
+    border-radius: 10px;
+    color: white;
+    padding: 10px;
   }
   footer .redes {
     padding-right: 16px;
@@ -163,7 +202,7 @@ footer .redes ul li a i:hover {
     font-size: 25px;
   }
 }
-@media screen and (max-width: 428px) {
+@media screen and (max-width: 1440px) {
   body {
     width: 100%;
   }
@@ -177,8 +216,43 @@ footer .redes ul li a i:hover {
     padding: 5px;
     text-align: center;
   }
-  footer .copy #p-footer {
+  footer .copy p {
+    background-color: black;
+    font-size: 15px;
+    border-radius: 10px;
+    color: white;
+    padding: 10px;
+  }
+  footer .redes {
+    padding-right: 16px;
+  }
+  footer .redes ul {
+    gap: 25px;
+  }
+  footer .redes ul li {
     font-size: 25px;
+  }
+}
+@media screen and (max-width: 2560px) {
+  body {
+    width: 100%;
+  }
+  main {
+    margin: 50px 0px;
+  }
+  footer {
+    width: 100%;
+  }
+  footer .copy {
+    padding: 5px;
+    text-align: center;
+  }
+  footer .copy p {
+    background-color: black;
+    font-size: 15px;
+    border-radius: 10px;
+    color: white;
+    padding: 10px;
   }
   footer .redes {
     padding-right: 16px;

@@ -1,6 +1,5 @@
 @import "../variablesMixins/mixin";
-@import "../variablesMixins/colores";
-@media screen and (max-width:428px){
+@media screen and (max-width:425px){
     body{
         width: 100%;
     }
@@ -12,8 +11,9 @@
         .copy{
             padding: 5px;
             text-align: center;
-            #p-footer{
-                font-size: 25px;
+            p{
+                // aplicando mixin (ahorro de codigo css)
+                @include backgroundSecundario;
             }
         }
 
@@ -22,7 +22,7 @@
             ul{
                 gap: 25px;
                 li{
-                    font-size: 25px;
+                    font-size: 20px;
 
                 }
             }
