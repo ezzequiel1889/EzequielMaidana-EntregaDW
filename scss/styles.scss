@@ -5,6 +5,8 @@
 // colores //
 @import "./variablesMixins/colores";
 
+// mixins //
+@import "./variablesMixins/mixin";
 
 
 // mobile //
@@ -15,6 +17,7 @@
 // desktop //
 @import "./responsivePartials/desktop768px";
 @import "./responsivePartials/desktop1024px";
+
 
 
 
