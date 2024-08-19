@@ -1,4 +1,5 @@
-@media screen and (max-width:375px){
+@import "../variablesMixins/mixin";
+@media screen and (max-width:320px){
     body{
         width: 100%;
     }
@@ -10,8 +11,9 @@
         .copy{
             padding: 5px;
             text-align: center;
-            .p-footer{
-                font-size: 6px;
+            p{
+                // aplicando mixin (ahorro de codigo css)
+                @include backgroundPrincipal;
             }
         }
 

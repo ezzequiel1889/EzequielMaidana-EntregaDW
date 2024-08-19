@@ -2,15 +2,19 @@
 @import "body";
 @import "footer";
 
+// colores //
+@import "./variablesMixins/colores";
+
+
 
 // mobile //
-@import "mobile320px";
-@import "mobile375px";
-@import "mobile428px";
+@import "./responsivePartials/mobile320px";
+@import "./responsivePartials/mobile375px";
+@import "./responsivePartials/mobile428px";
 
 // desktop //
-@import "desktop768px";
-@import "desktop1024px";
+@import "./responsivePartials/desktop768px";
+@import "./responsivePartials/desktop1024px";
 
 
 

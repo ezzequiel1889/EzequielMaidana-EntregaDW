@@ -1,4 +1,4 @@
-@media screen and (max-width:320px){
+@media screen and (max-width:428px){
     body{
         width: 100%;
     }
@@ -10,8 +10,8 @@
         .copy{
             padding: 5px;
             text-align: center;
-            .p-footer{
-                font-size: 6px;
+            #p-footer{
+                font-size: 25px;
             }
         }
 
@@ -20,7 +20,7 @@
             ul{
                 gap: 25px;
                 li{
-                    font-size: 20px;
+                    font-size: 25px;
 
                 }
             }
