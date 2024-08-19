@@ -1,0 +1,9 @@
+@import "./colores";
+
+@mixin backgroundPrincipal{
+    background-color: black;
+    font-size: 13px;
+    border-radius: 10px;
+    color: $color2;
+    padding: 5px;
+}
