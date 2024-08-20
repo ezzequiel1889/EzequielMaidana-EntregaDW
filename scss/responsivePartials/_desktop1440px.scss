@@ -1,11 +1,6 @@
-<<<<<<< HEAD:scss/responsivePartials/_mobile428px.scss
 @import "../variablesMixins/mixin";
 @import "../variablesMixins/colores";
 @media screen and (max-width:428px){
-=======
-@import "../utilities/mixin";
-@media screen and (max-width:1440px){
->>>>>>> main:scss/responsivePartials/_desktop1440px.scss
     body{
         width: 100%;
     }
@@ -18,11 +13,7 @@
             padding: 5px;
             text-align: center;
             p{
-<<<<<<< HEAD:scss/responsivePartials/_mobile428px.scss
                 @include backgroundSecundario; 
-=======
-                @include backgroundSecundario;
->>>>>>> main:scss/responsivePartials/_desktop1440px.scss
             }
         }
 
