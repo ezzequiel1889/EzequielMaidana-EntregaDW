@@ -1,17 +1,279 @@
-/* Error: Can't find stylesheet to import.
- *   ,
- * 9 | @import "./variablesMixins/mixin";
- *   |         ^^^^^^^^^^^^^^^^^^^^^^^^^
- *   '
- *   scss\styles.scss 9:9  root stylesheet */
-
-body::before {
-  font-family: "Source Code Pro", "SF Mono", Monaco, Inconsolata, "Fira Mono",
-      "Droid Sans Mono", monospace, monospace;
-  white-space: pre;
-  display: block;
-  padding: 1em;
-  margin-bottom: 1em;
-  border-bottom: 2px solid black;
-  content: "Error: Can't find stylesheet to import.\a   \2577 \a 9 \2502  @import \"./variablesMixins/mixin\";\d\a   \2502          ^^^^^^^^^^^^^^^^^^^^^^^^^\a   \2575 \a   scss\\styles.scss 9:9  root stylesheet";
+header {
+  width: 100%;
 }
+
+#hed {
+  color: white !important;
+}
+
+body {
+  background-image: url(../img/fondo-helados.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 122vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+body .main_class section .caja1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-radius: 20px;
+  margin-top: 30px;
+}
+body .main_class section .caja1 p {
+  width: 60%;
+  background-color: rgba(160, 156, 156, 0.692);
+}
+
+footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 100%;
+  height: 140px;
+}
+footer #p-footer {
+  color: white;
+  padding: 5px;
+  background-color: black;
+  border-radius: 15px;
+}
+footer .redes ul {
+  display: flex;
+  gap: 100px;
+  list-style: none;
+}
+footer .redes ul li {
+  font-size: 25px;
+}
+footer .redes ul li a i {
+  color: white;
+  transition: color 0.4s;
+}
+footer .redes ul li a i:hover {
+  color: black !important;
+}
+
+@media screen and (max-width: 320px) {
+  body {
+    width: 100%;
+  }
+  main {
+    margin: 50px 0px;
+  }
+  footer {
+    width: 100%;
+  }
+  footer .copy {
+    padding: 5px;
+    text-align: center;
+  }
+  footer .copy p {
+    background-color: black;
+    font-size: 10px;
+    border-radius: 10px;
+    color: white;
+    padding: 5px;
+  }
+  footer .redes {
+    padding-right: 16px;
+  }
+  footer .redes ul {
+    gap: 25px;
+  }
+  footer .redes ul li {
+    font-size: 20px;
+  }
+}
+@media screen and (max-width: 375px) {
+  body {
+    width: 100%;
+  }
+  main {
+    margin: 50px 0px;
+  }
+  footer {
+    width: 100%;
+  }
+  footer .copy {
+    padding: 5px;
+    text-align: center;
+  }
+  footer .copy p {
+    background-color: black;
+    font-size: 10px;
+    border-radius: 10px;
+    color: white;
+    padding: 5px;
+  }
+  footer .redes {
+    padding-right: 16px;
+  }
+  footer .redes ul {
+    gap: 25px;
+  }
+  footer .redes ul li {
+    font-size: 20px;
+  }
+}
+@media screen and (max-width: 425px) {
+  body {
+    width: 100%;
+  }
+  main {
+    margin: 50px 0px;
+  }
+  footer {
+    width: 100%;
+  }
+  footer .copy {
+    padding: 5px;
+    text-align: center;
+  }
+  footer .copy p {
+    background-color: black;
+    font-size: 15px;
+    border-radius: 10px;
+    color: white;
+    padding: 10px;
+  }
+  footer .redes {
+    padding-right: 16px;
+  }
+  footer .redes ul {
+    gap: 25px;
+  }
+  footer .redes ul li {
+    font-size: 20px;
+  }
+}
+@media screen and (max-width: 768px) {
+  body {
+    width: 100%;
+  }
+  main {
+    margin: 50px 0px;
+  }
+  footer {
+    width: 100%;
+  }
+  footer .copy {
+    padding: 5px;
+    text-align: center;
+  }
+  footer .copy p {
+    background-color: black;
+    font-size: 15px;
+    border-radius: 10px;
+    color: white;
+    padding: 10px;
+  }
+  footer .redes {
+    padding-right: 16px;
+  }
+  footer .redes ul {
+    gap: 25px;
+  }
+  footer .redes ul li {
+    font-size: 25px;
+  }
+}
+@media screen and (max-width: 1024px) {
+  body {
+    width: 100%;
+  }
+  main {
+    margin: 50px 0px;
+  }
+  footer {
+    width: 100%;
+  }
+  footer .copy {
+    padding: 5px;
+    text-align: center;
+  }
+  footer .copy p {
+    background-color: black;
+    font-size: 15px;
+    border-radius: 10px;
+    color: white;
+    padding: 10px;
+  }
+  footer .redes {
+    padding-right: 16px;
+  }
+  footer .redes ul {
+    gap: 25px;
+  }
+  footer .redes ul li {
+    font-size: 25px;
+  }
+}
+@media screen and (max-width: 428px) {
+  body {
+    width: 100%;
+  }
+  main {
+    margin: 50px 0px;
+  }
+  footer {
+    width: 100%;
+  }
+  footer .copy {
+    padding: 5px;
+    text-align: center;
+  }
+  footer .copy p {
+    background-color: black;
+    font-size: 15px;
+    border-radius: 10px;
+    color: white;
+    padding: 10px;
+  }
+  footer .redes {
+    padding-right: 16px;
+  }
+  footer .redes ul {
+    gap: 25px;
+  }
+  footer .redes ul li {
+    font-size: 25px;
+  }
+}
+@media screen and (max-width: 2560px) {
+  body {
+    width: 100%;
+  }
+  main {
+    margin: 50px 0px;
+  }
+  footer {
+    width: 100%;
+  }
+  footer .copy {
+    padding: 5px;
+    text-align: center;
+  }
+  footer .copy p {
+    background-color: black;
+    font-size: 15px;
+    border-radius: 10px;
+    color: white;
+    padding: 10px;
+  }
+  footer .redes {
+    padding-right: 16px;
+  }
+  footer .redes ul {
+    gap: 25px;
+  }
+  footer .redes ul li {
+    font-size: 25px;
+  }
+}
+
+/*# sourceMappingURL=styles.css.map */
