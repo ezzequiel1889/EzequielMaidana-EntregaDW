@@ -1,5 +1,6 @@
 @import "../utilities/mixin";
-@media screen and (max-width:1440px){
+@import "../utilities/colores";
+@media screen and (max-width:428px){
     body{
         width: 100%;
     }
@@ -12,7 +13,7 @@
             padding: 5px;
             text-align: center;
             p{
-                @include backgroundSecundario;
+                @include backgroundSecundario; 
             }
         }
 
