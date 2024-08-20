@@ -1,5 +1,5 @@
 @import "../utilities/mixin";
-@media screen and (max-width:1024px){
+@media screen and (max-width:425px){
     body{
         width: 100%;
     }
@@ -12,6 +12,7 @@
             padding: 5px;
             text-align: center;
             p{
+                // aplicando mixin (ahorro de codigo css)
                 @include backgroundSecundario;
             }
         }
@@ -21,7 +22,7 @@
             ul{
                 gap: 25px;
                 li{
-                    font-size: 25px;
+                    font-size: 20px;
 
                 }
             }

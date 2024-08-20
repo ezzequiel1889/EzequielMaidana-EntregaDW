@@ -123,12 +123,17 @@ footer .redes ul li a i:hover {
     padding: 5px;
     text-align: center;
   }
+<<<<<<< HEAD
   footer .copy p {
     background-color: black;
     font-size: 15px;
     border-radius: 10px;
     color: white;
     padding: 10px;
+=======
+  footer .copy #p-footer {
+    font-size: 25px;
+>>>>>>> main
   }
   footer .redes {
     padding-right: 16px;
