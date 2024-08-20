@@ -213,7 +213,7 @@ footer .redes ul li a i:hover {
     font-size: 25px;
   }
 }
-@media screen and (max-width: 1440px) {
+@media screen and (max-width: 428px) {
   body {
     width: 100%;
   }
