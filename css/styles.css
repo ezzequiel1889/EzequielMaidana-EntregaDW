@@ -10,11 +10,18 @@ body {
   background-image: url(../img/fondo-helados.png);
   background-repeat: no-repeat;
   background-size: cover;
-  height: 122vh;
+  height: 124vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: space-between;
+}
+body .main_class {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
 }
 body .main_class section {
   margin-top: 20px;
