@@ -1,5 +1,6 @@
 header {
   width: 100%;
+  z-index: 100px;
 }
 
 #hed {
@@ -62,12 +63,6 @@ body .main_class section .cont-destacados h3 {
 }
 
 /* HELADOS HTML */
-.main_helados {
-  margin: auto;
-  height: 70%;
-  overflow: scroll;
-}
-
 footer {
   display: flex;
   align-items: center;
