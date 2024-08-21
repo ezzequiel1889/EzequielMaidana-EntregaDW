@@ -70,3 +70,21 @@ body{
 .mainCarrusel{
     margin: auto;
 }
+
+/* NOSOTROS HTML */
+.contNostros{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    gap: 90px;
+    margin: 0px;
+    div{
+        padding: 20px;
+        background-color: $fondo1;
+    }
+    i{
+        font-size: 30px;
+    }
+}

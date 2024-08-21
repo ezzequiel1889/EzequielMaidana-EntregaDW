@@ -78,6 +78,24 @@ body .main_class section .cont-destacados h3 {
   margin: auto;
 }
 
+/* NOSOTROS HTML */
+.contNostros {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  gap: 90px;
+  margin: 0px;
+}
+.contNostros div {
+  padding: 20px;
+  background-color: rgba(160, 156, 156, 0.692);
+}
+.contNostros i {
+  font-size: 30px;
+}
+
 footer {
   display: flex;
   align-items: center;
