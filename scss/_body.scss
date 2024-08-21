@@ -96,3 +96,18 @@ body{
         color: $color2;
     }
 }
+
+/* CONTACTANOS HTML */
+
+.formulario{
+    background-color: $fondo1;
+    padding: 15px;
+
+}
+.contactanosMain{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 180px;
+    height: 100%;
+}
