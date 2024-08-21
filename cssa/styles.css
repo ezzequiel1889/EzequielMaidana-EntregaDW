@@ -63,12 +63,6 @@ body .main_class section .cont-destacados h3 {
 }
 
 /* HELADOS HTML */
-.main_helados {
-  margin: auto;
-  height: 70%;
-  overflow: scroll;
-}
-
 footer {
   display: flex;
   align-items: center;
@@ -222,10 +216,6 @@ footer .redes ul li a i:hover {
     font-size: 25px;
   }
 }
-.main_helados {
-  width: 100vh;
-}
-
 @media screen and (max-width: 1024px) {
   body {
     width: 100%;
