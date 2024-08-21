@@ -72,19 +72,27 @@ body{
 }
 
 /* NOSOTROS HTML */
+.bodyOfertas{
+    height: 100%;
+}
+
 .contNostros{
     text-align: center;
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: space-around;
-    gap: 90px;
+    justify-content: space-between;
+    gap: 20px;
     margin: 0px;
     div{
         padding: 20px;
         background-color: $fondo1;
+        p{
+            color: $color1;
+        }
     }
     i{
         font-size: 30px;
+        color: $color2;
     }
 }
