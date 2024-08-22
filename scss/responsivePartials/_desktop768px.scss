@@ -27,6 +27,31 @@
             }
         }
     }
+
+    .ubicacion{
+        overflow: hidden;
+        width: 450px;
+        border: 2px solid black;
+
+    }
+    @media screen and (max-width:496px){
+        .ubicacion{
+            width: 350px;
+            border: 2px solid black;
+            iframe{
+                width: 100%;
+            }
+        }
+    }
+    @media screen and (max-width:380px){
+        .ubicacion{
+            width: 300px;
+            border: 2px solid black;
+            iframe{
+                width: 100%;
+            }
+        }
+    }
 }
 
 
