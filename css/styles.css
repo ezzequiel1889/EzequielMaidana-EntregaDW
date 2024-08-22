@@ -117,11 +117,11 @@ body .main_class section .cont-destacados h3 {
   height: 719px !important;
 }
 
-/* NOSOTROS HTML */
 .bodyOfertas {
   height: 100%;
 }
 
+/* NOSOTROS HTML */
 .nosotrosMain {
   height: 100%;
 }
@@ -338,6 +338,18 @@ footer .redes ul li a i:hover {
   }
   .ubicacion iframe {
     width: 100%;
+  }
+}
+@media screen and (max-width: 768px) and (max-width: 558px) {
+  .contNostros {
+    border: 1px solid black;
+    background-color: rgb(55, 86, 122);
+    overflow: scroll;
+    height: 800px;
+    width: 280px;
+  }
+  .contNostros div {
+    padding: 10px;
   }
 }
 .main_helados {
