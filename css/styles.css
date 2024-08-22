@@ -82,10 +82,10 @@ body .main_class section .cont-destacados h3 {
 /* ANIMACION  */
 @keyframes tituloAnimacion {
   0% {
-    transform: rotate(-25deg);
+    transform: rotate(-8deg);
   }
   100% {
-    transform: rotate(25deg);
+    transform: rotate(8deg);
   }
 }
 /* HELADOS HTML */
