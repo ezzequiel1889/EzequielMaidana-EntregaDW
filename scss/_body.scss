@@ -1,4 +1,7 @@
 @import "./utilities/colores";
+*{
+    font-family: "Roboto Condensed", sans-serif;
+}
 body{
     background-image: url(../img/fondo-helados.png);
     background-repeat: no-repeat;
@@ -27,7 +30,6 @@ body{
                 width: 50%;
                 background-color: $color2;
             }
-            margin-top: 20px;
             .caja1{
                 gap: 30px;
                 display: flex;

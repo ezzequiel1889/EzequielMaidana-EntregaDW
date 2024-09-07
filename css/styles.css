@@ -11,6 +11,10 @@ header {
   width: 100%;
 }
 
+* {
+  font-family: "Roboto Condensed", sans-serif;
+}
+
 body {
   background-image: url(../img/fondo-helados.png);
   background-repeat: no-repeat;
@@ -36,7 +40,6 @@ body .main_class section {
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin-top: 20px;
 }
 body .main_class section .tituloIndex {
   width: 50%;
